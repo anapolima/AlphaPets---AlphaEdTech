@@ -72,7 +72,7 @@ $ cd alphapets
 $ yarn install
 ```
 
-Antes de iniciar a aplicação vá até o arquivo ```./src/providers/UserProvider.jsx```e altere a constante ***url*** situada na *linha 9*, definindo-a com o valor do seu endereço de IP.
+Antes de iniciar a aplicação vá até o arquivo ```./src/providers/UserProvider.jsx``` e altere a constante ***url*** situada na *linha 9*, definindo-a com o valor do seu endereço de IP.
 Por exemplo, ```const url = "192.168.0.1";```.
 
 ```
