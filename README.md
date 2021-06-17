@@ -24,7 +24,7 @@ O projeto visa permitir o cadastro e agendamento de serviços para pets, e conta
 ## A solicitação de recuperação de senha
 
 Quando uma solicitação de recuperação de senha é feita, o código que deve ser usado para recuperar a senha é enviado ao email informado durante o processo. Esse procedimento é realizado pelo servidor do arquivo ***mail.js***. Este servidor precisa de um email, senha, e Client Id, Client Secret e Refresh Token do OAuth2.
-O email e senha deverão estar presentes no arquivo ***.env***, situado na raiz do projeto
+O email e senha deverão estar presentes no arquivo ***.env***, situado na raiz do projeto.
 
 ```
 EMAIL= YOUR_GMAIL
@@ -50,7 +50,7 @@ Ainda é preciso gerar seu Refresh Token. Para isso, vá até [OAuth Playground]
 
 Então, do lado esquerdo da sua tela, selecione a ***Gmail API v1*** e ***https://mail.google.com/***. AutOrize a API e no Step 2 clique em ***exchange authorization code for tokens*** para obter seu Refresh Token.
 
-Coopie-o e cole em seu respectivo campo no arquivo ***.env***.
+Copie-o e cole em seu respectivo campo no arquivo ***.env***.
 
 ```
 OAUTH_REFRESH_TOKEN= YOUR_REFRESH_TOKEN
