@@ -1,4 +1,4 @@
-# alphapets
+# AlphaPets
 
 ## Tecnologias utilizadas
 <div>
