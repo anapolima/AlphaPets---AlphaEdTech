@@ -48,7 +48,7 @@ OAUTH_CLIENT_SECRET= YOUR_CLIENT_SECRET
 
 Ainda é preciso gerar seu Refresh Token. Para isso, vá até [OAuth Playground](https://developers.google.com/oauthplayground/) e clique no ícone de configurações no canto superior direito e em ***Use your own OAuth credentials*** e insira seu Client ID e Client Secret obtidos anteriormente.
 
-Então, do lado esquerdo da sua tela, selecione a ***Gmail API v1*** e ***https://mail.google.com/***. AutOrize a API e no Step 2 clique em ***exchange authorization code for tokens*** para obter seu Refresh Token.
+Então, do lado esquerdo da sua tela, selecione a ***Gmail API v1*** e ***https://mail.google.com/***. Autorize a API e no Step 2 clique em ***exchange authorization code for tokens*** para obter seu Refresh Token.
 
 Copie-o e cole em seu respectivo campo no arquivo ***.env***.
 
@@ -63,7 +63,7 @@ Realizado o procedimento acima, você precisará ter em sua máquina:
 
 ```
 # clone este repositório
-$ git clone https://github.com/anapolima/alphapets
+$ git clone https://github.com/anapolima/AlphaPets---AlphaEdTech
 
 # vá para a pasta do projeto no terminal
 $ cd alphapets
